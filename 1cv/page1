@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mein Lebenslauf</title>
+  </head>
+
+  <body>
+    <h1> LARIE BORELLE SIABOU </h1>
+    <p>
+        Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
+        <a href="image/Bewerbungsfoto.jpeg"><img src="image/Bewerbungsfoto_mini.jpg" alt="Ma photo" title="Cliquez pour agrandir" /></a>
+    </p>
+  </body>
+</html>
