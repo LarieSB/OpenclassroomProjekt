@@ -21,10 +21,11 @@ h2
 body
 {
     background-image: url("image/Background_im.jpg");
+    
 }
 body
 {
-    color: antiquewhite;
+    color: white;
 }
 a
 {
@@ -34,4 +35,38 @@ a:hover /* Apparence au survol des liens */
 {
    font-weight: bold;
    color: rgb(204, 50, 63);
+}
+
+#Erfahrungen
+{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.element
+{
+    text-align: justify;
+    margin: 10px;
+}
+
+header
+{
+    text-align: center ;
+}
+#imgliseré, #contenu_du_cv
+{
+    display: inline-block;
+    vertical-align: top;
+}
+#imgliseré
+{    
+    float:left;
+    width: 20%;
+}
+#contenue_du_cv
+{
+   margin-left:20%;
 }
