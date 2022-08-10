@@ -27,6 +27,11 @@ body
 {
     color: white;
 }
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
 a
 {
     color: white;
@@ -69,4 +74,34 @@ header
 #contenue_du_cv
 {
    margin-left:20%;
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    #imgliseré
+    {
+        display: none;
+    }
+    #contene_du_cv
+    {
+        width: auto;
+    }
+     
+    #Erfahrungen
+    {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    }
+    .element
+    {
+    text-align: justify;
+    margin: 10px;
+    }
 }
